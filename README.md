@@ -108,25 +108,4 @@ npm run serve
 | 5 | main | 在路径操作栏下的列表区 |
 | 6 | - | 不具名slot，可以写任何dom模块 |
 
-## 版本记录
-
-> 0.1.7 修复文件路径拼接逻辑未采用splicOptions参数的错误，并将splicOptions废弃，合并入props，所有带path前缀的字段
-
-> 0.1.6 修改debounce为throttle
-
-> 0.1.5 增加size参数管理组件内小组件大小
-
-> 0.1.4 修复图标模式，名称字段未使用props配置的错误
-
-> 0.1.2 修复部分未按照props设置而写死字段的代码；修复updateHistoryData手动更新历史记录函数缺失问题
-
-> 0.1.1 优化内置预览组件参数缺省时的错误；文档增加`方法`的说明；优化主slot在列表区的错误，并在列表区增加name为`main`的slot；
-
-> 0.1.0 wl-explorer第一个版本发布
-
-> 0.0.1 初次发布，部分功能未解耦，待续
-
-<!-- 
-  <video src="src/assets/explorer-demo.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video> -->
-
 
